@@ -25,3 +25,15 @@ Content-Type: application/json
 
 ### PRODUCTS DESTROY
 DELETE http://localhost:3000/products/3.json
+
+
+### Users create (signup)
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Tom",
+  "email": "tom@test.com",
+  "password": "tomspassword",
+  "password_confirmation": "tomspassword"
+}  
