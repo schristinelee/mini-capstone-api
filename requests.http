@@ -33,7 +33,27 @@ Content-Type: application/json
 
 {
   "name": "Tom",
-  "email": "tom@test.com",
+  "email": "tom@example.com",
   "password": "tomspassword",
   "password_confirmation": "tomspassword"
 }  
+
+### Sessions create (login)
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "tom@example.com",
+  "password": "tomspassword"
+}
+
+### Photos create
+POST http://localhost:3000/photos.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjozLCJleHAiOjE2Mjk5OTI4NjR9.G2ExsrDYn3oE0vJkvm4T6Po2GbNpH5cqTEaVPVuK_MA
+Content-Type: application/json
+
+{
+  "name": "Tom",
+  "width": 640,
+  "height": 480
+}
