@@ -57,3 +57,9 @@ Content-Type: application/json
   "width": 640,
   "height": 480
 }
+
+### ORDERS CREATE
+POST http://localhost:3000/orders.json
+
+### ORDERS SHOW
+GET http://localhost:3000/orders/2.json

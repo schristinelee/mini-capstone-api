@@ -1,3 +1,2 @@
-1. Log in
-2. Browse items
-3. 
+1. Users would need to sign in
+2. Put items in the cart
